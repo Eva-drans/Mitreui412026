@@ -7,8 +7,8 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite"
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/Eva-drans/Mitreui412026.git"
+    "predeploy": "npm run build", // added 4.3
+    "deploy": "gh-pages -d dist -r https://github.com/Eva-drans/Mitreui412026.git" // added 4.3
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
