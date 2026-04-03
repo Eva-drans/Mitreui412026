@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/mitre-ui/",
   resolve: {
     alias: {
       // Alias @ to the src directory
